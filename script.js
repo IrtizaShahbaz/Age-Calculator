@@ -1,7 +1,7 @@
 const userInp = document.getElementById("date");
 userInp.max = new Date().toISOString().split("T")[0]; 
 
-function calculateAge(){
+function calculateAge() {
     let birthDate = new Date(userInp.value);
 
     let d1 = birthDate.getDate();
